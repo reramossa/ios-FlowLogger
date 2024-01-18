@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0531D3262B58E32B000ABA0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0531D3252B58E32B000ABA0B /* AppDelegate.swift */; };
+		0531D3282B58E32B000ABA0B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0531D3272B58E32B000ABA0B /* SceneDelegate.swift */; };
+		0531D32A2B58E32B000ABA0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0531D3292B58E32B000ABA0B /* ViewController.swift */; };
+		0531D32D2B58E32B000ABA0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0531D32B2B58E32B000ABA0B /* Main.storyboard */; };
+		0531D32F2B58E32C000ABA0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0531D32E2B58E32C000ABA0B /* Assets.xcassets */; };
+		0531D3322B58E32C000ABA0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0531D3302B58E32C000ABA0B /* LaunchScreen.storyboard */; };
+		0531D33D2B58E32D000ABA0B /* FlowLoggerDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0531D33C2B58E32D000ABA0B /* FlowLoggerDemoTests.swift */; };
+		0531D3472B58E32D000ABA0B /* FlowLoggerDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0531D3462B58E32D000ABA0B /* FlowLoggerDemoUITests.swift */; };
+		0531D3492B58E32D000ABA0B /* FlowLoggerDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0531D3482B58E32D000ABA0B /* FlowLoggerDemoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0531D3392B58E32D000ABA0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0531D31A2B58E32B000ABA0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0531D3212B58E32B000ABA0B;
+			remoteInfo = FlowLoggerDemo;
+		};
+		0531D3432B58E32D000ABA0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0531D31A2B58E32B000ABA0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0531D3212B58E32B000ABA0B;
+			remoteInfo = FlowLoggerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0531D3222B58E32B000ABA0B /* FlowLoggerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlowLoggerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0531D3252B58E32B000ABA0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0531D3272B58E32B000ABA0B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0531D3292B58E32B000ABA0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0531D32C2B58E32B000ABA0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0531D32E2B58E32C000ABA0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0531D3312B58E32C000ABA0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0531D3332B58E32C000ABA0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0531D3382B58E32D000ABA0B /* FlowLoggerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlowLoggerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0531D33C2B58E32D000ABA0B /* FlowLoggerDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowLoggerDemoTests.swift; sourceTree = "<group>"; };
+		0531D3422B58E32D000ABA0B /* FlowLoggerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlowLoggerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0531D3462B58E32D000ABA0B /* FlowLoggerDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowLoggerDemoUITests.swift; sourceTree = "<group>"; };
+		0531D3482B58E32D000ABA0B /* FlowLoggerDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowLoggerDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0531D31F2B58E32B000ABA0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0531D3352B58E32D000ABA0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0531D33F2B58E32D000ABA0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0531D3192B58E32B000ABA0B = {
+			isa = PBXGroup;
+			children = (
+				0531D3242B58E32B000ABA0B /* FlowLoggerDemo */,
+				0531D33B2B58E32D000ABA0B /* FlowLoggerDemoTests */,
+				0531D3452B58E32D000ABA0B /* FlowLoggerDemoUITests */,
+				0531D3232B58E32B000ABA0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0531D3232B58E32B000ABA0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0531D3222B58E32B000ABA0B /* FlowLoggerDemo.app */,
+				0531D3382B58E32D000ABA0B /* FlowLoggerDemoTests.xctest */,
+				0531D3422B58E32D000ABA0B /* FlowLoggerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0531D3242B58E32B000ABA0B /* FlowLoggerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0531D3252B58E32B000ABA0B /* AppDelegate.swift */,
+				0531D3272B58E32B000ABA0B /* SceneDelegate.swift */,
+				0531D3292B58E32B000ABA0B /* ViewController.swift */,
+				0531D32B2B58E32B000ABA0B /* Main.storyboard */,
+				0531D32E2B58E32C000ABA0B /* Assets.xcassets */,
+				0531D3302B58E32C000ABA0B /* LaunchScreen.storyboard */,
+				0531D3332B58E32C000ABA0B /* Info.plist */,
+			);
+			path = FlowLoggerDemo;
+			sourceTree = "<group>";
+		};
+		0531D33B2B58E32D000ABA0B /* FlowLoggerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				0531D33C2B58E32D000ABA0B /* FlowLoggerDemoTests.swift */,
+			);
+			path = FlowLoggerDemoTests;
+			sourceTree = "<group>";
+		};
+		0531D3452B58E32D000ABA0B /* FlowLoggerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0531D3462B58E32D000ABA0B /* FlowLoggerDemoUITests.swift */,
+				0531D3482B58E32D000ABA0B /* FlowLoggerDemoUITestsLaunchTests.swift */,
+			);
+			path = FlowLoggerDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0531D3212B58E32B000ABA0B /* FlowLoggerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0531D34C2B58E32D000ABA0B /* Build configuration list for PBXNativeTarget "FlowLoggerDemo" */;
+			buildPhases = (
+				0531D31E2B58E32B000ABA0B /* Sources */,
+				0531D31F2B58E32B000ABA0B /* Frameworks */,
+				0531D3202B58E32B000ABA0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlowLoggerDemo;
+			productName = FlowLoggerDemo;
+			productReference = 0531D3222B58E32B000ABA0B /* FlowLoggerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0531D3372B58E32D000ABA0B /* FlowLoggerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0531D34F2B58E32D000ABA0B /* Build configuration list for PBXNativeTarget "FlowLoggerDemoTests" */;
+			buildPhases = (
+				0531D3342B58E32D000ABA0B /* Sources */,
+				0531D3352B58E32D000ABA0B /* Frameworks */,
+				0531D3362B58E32D000ABA0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0531D33A2B58E32D000ABA0B /* PBXTargetDependency */,
+			);
+			name = FlowLoggerDemoTests;
+			productName = FlowLoggerDemoTests;
+			productReference = 0531D3382B58E32D000ABA0B /* FlowLoggerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0531D3412B58E32D000ABA0B /* FlowLoggerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0531D3522B58E32D000ABA0B /* Build configuration list for PBXNativeTarget "FlowLoggerDemoUITests" */;
+			buildPhases = (
+				0531D33E2B58E32D000ABA0B /* Sources */,
+				0531D33F2B58E32D000ABA0B /* Frameworks */,
+				0531D3402B58E32D000ABA0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0531D3442B58E32D000ABA0B /* PBXTargetDependency */,
+			);
+			name = FlowLoggerDemoUITests;
+			productName = FlowLoggerDemoUITests;
+			productReference = 0531D3422B58E32D000ABA0B /* FlowLoggerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0531D31A2B58E32B000ABA0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					0531D3212B58E32B000ABA0B = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					0531D3372B58E32D000ABA0B = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 0531D3212B58E32B000ABA0B;
+					};
+					0531D3412B58E32D000ABA0B = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 0531D3212B58E32B000ABA0B;
+					};
+				};
+			};
+			buildConfigurationList = 0531D31D2B58E32B000ABA0B /* Build configuration list for PBXProject "FlowLoggerDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0531D3192B58E32B000ABA0B;
+			productRefGroup = 0531D3232B58E32B000ABA0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0531D3212B58E32B000ABA0B /* FlowLoggerDemo */,
+				0531D3372B58E32D000ABA0B /* FlowLoggerDemoTests */,
+				0531D3412B58E32D000ABA0B /* FlowLoggerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0531D3202B58E32B000ABA0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0531D3322B58E32C000ABA0B /* LaunchScreen.storyboard in Resources */,
+				0531D32F2B58E32C000ABA0B /* Assets.xcassets in Resources */,
+				0531D32D2B58E32B000ABA0B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0531D3362B58E32D000ABA0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0531D3402B58E32D000ABA0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0531D31E2B58E32B000ABA0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0531D32A2B58E32B000ABA0B /* ViewController.swift in Sources */,
+				0531D3262B58E32B000ABA0B /* AppDelegate.swift in Sources */,
+				0531D3282B58E32B000ABA0B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0531D3342B58E32D000ABA0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0531D33D2B58E32D000ABA0B /* FlowLoggerDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0531D33E2B58E32D000ABA0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0531D3472B58E32D000ABA0B /* FlowLoggerDemoUITests.swift in Sources */,
+				0531D3492B58E32D000ABA0B /* FlowLoggerDemoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0531D33A2B58E32D000ABA0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0531D3212B58E32B000ABA0B /* FlowLoggerDemo */;
+			targetProxy = 0531D3392B58E32D000ABA0B /* PBXContainerItemProxy */;
+		};
+		0531D3442B58E32D000ABA0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0531D3212B58E32B000ABA0B /* FlowLoggerDemo */;
+			targetProxy = 0531D3432B58E32D000ABA0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0531D32B2B58E32B000ABA0B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0531D32C2B58E32B000ABA0B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0531D3302B58E32C000ABA0B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0531D3312B58E32C000ABA0B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0531D34A2B58E32D000ABA0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0531D34B2B58E32D000ABA0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0531D34D2B58E32D000ABA0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N4V5HZ9F4Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlowLoggerDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = www.gapsi.flowLogger.FlowLoggerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0531D34E2B58E32D000ABA0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N4V5HZ9F4Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlowLoggerDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = www.gapsi.flowLogger.FlowLoggerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0531D3502B58E32D000ABA0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N4V5HZ9F4Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = www.gapsi.flowLogger.FlowLoggerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlowLoggerDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FlowLoggerDemo";
+			};
+			name = Debug;
+		};
+		0531D3512B58E32D000ABA0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N4V5HZ9F4Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = www.gapsi.flowLogger.FlowLoggerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlowLoggerDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FlowLoggerDemo";
+			};
+			name = Release;
+		};
+		0531D3532B58E32D000ABA0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N4V5HZ9F4Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = www.gapsi.flowLogger.FlowLoggerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlowLoggerDemo;
+			};
+			name = Debug;
+		};
+		0531D3542B58E32D000ABA0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N4V5HZ9F4Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = www.gapsi.flowLogger.FlowLoggerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlowLoggerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0531D31D2B58E32B000ABA0B /* Build configuration list for PBXProject "FlowLoggerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0531D34A2B58E32D000ABA0B /* Debug */,
+				0531D34B2B58E32D000ABA0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0531D34C2B58E32D000ABA0B /* Build configuration list for PBXNativeTarget "FlowLoggerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0531D34D2B58E32D000ABA0B /* Debug */,
+				0531D34E2B58E32D000ABA0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0531D34F2B58E32D000ABA0B /* Build configuration list for PBXNativeTarget "FlowLoggerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0531D3502B58E32D000ABA0B /* Debug */,
+				0531D3512B58E32D000ABA0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0531D3522B58E32D000ABA0B /* Build configuration list for PBXNativeTarget "FlowLoggerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0531D3532B58E32D000ABA0B /* Debug */,
+				0531D3542B58E32D000ABA0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0531D31A2B58E32B000ABA0B /* Project object */;
+}
