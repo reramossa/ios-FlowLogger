@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0531D3042B4F2D9C000ABA0B /* FlowLogger.docc in Sources */ = {isa = PBXBuildFile; fileRef = 0531D3032B4F2D9C000ABA0B /* FlowLogger.docc */; };
 		0531D30A2B4F2D9C000ABA0B /* FlowLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0531D2FF2B4F2D9B000ABA0B /* FlowLogger.framework */; };
 		0531D30F2B4F2D9C000ABA0B /* FlowLoggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0531D30E2B4F2D9C000ABA0B /* FlowLoggerTests.swift */; };
 		0531D3102B4F2D9C000ABA0B /* FlowLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 0531D3022B4F2D9B000ABA0B /* FlowLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -26,7 +25,6 @@
 /* Begin PBXFileReference section */
 		0531D2FF2B4F2D9B000ABA0B /* FlowLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FlowLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0531D3022B4F2D9B000ABA0B /* FlowLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlowLogger.h; sourceTree = "<group>"; };
-		0531D3032B4F2D9C000ABA0B /* FlowLogger.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = FlowLogger.docc; sourceTree = "<group>"; };
 		0531D3092B4F2D9C000ABA0B /* FlowLoggerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlowLoggerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0531D30E2B4F2D9C000ABA0B /* FlowLoggerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowLoggerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,8 +69,8 @@
 		0531D3012B4F2D9B000ABA0B /* FlowLogger */ = {
 			isa = PBXGroup;
 			children = (
+				0531D3552B5F4F24000ABA0B /* Module */,
 				0531D3022B4F2D9B000ABA0B /* FlowLogger.h */,
-				0531D3032B4F2D9C000ABA0B /* FlowLogger.docc */,
 			);
 			path = FlowLogger;
 			sourceTree = "<group>";
@@ -83,6 +81,29 @@
 				0531D30E2B4F2D9C000ABA0B /* FlowLoggerTests.swift */,
 			);
 			path = FlowLoggerTests;
+			sourceTree = "<group>";
+		};
+		0531D3552B5F4F24000ABA0B /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				0531D3572B5F5002000ABA0B /* Infrastructure */,
+				0531D3562B5F4F3C000ABA0B /* Core */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		0531D3562B5F4F3C000ABA0B /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		0531D3572B5F5002000ABA0B /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Infrastructure;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,7 +215,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0531D3042B4F2D9C000ABA0B /* FlowLogger.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
