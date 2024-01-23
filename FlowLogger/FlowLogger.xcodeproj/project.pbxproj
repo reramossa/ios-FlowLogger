@@ -86,6 +86,7 @@
 		0531D3552B5F4F24000ABA0B /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				0531D3572B5F5002000ABA0B /* Infrastructure */,
 				0531D3562B5F4F3C000ABA0B /* Core */,
 			);
 			path = Module;
@@ -96,6 +97,13 @@
 			children = (
 			);
 			path = Core;
+			sourceTree = "<group>";
+		};
+		0531D3572B5F5002000ABA0B /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Infrastructure;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
